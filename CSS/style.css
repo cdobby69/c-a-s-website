@@ -133,7 +133,7 @@ body {
   transition: all 400ms ease-out;
 }
 
-.btn-group .game_button {
+.game_button {
   background-color: #ff8000;
   border: 1px solid black;
   color: white;
@@ -146,11 +146,11 @@ body {
   display: block;
 }
 
-.btn-group .game_button:not(:last-child) {
+.game_button:not(:last-child) {
   border-bottom: none; /* Prevent double borders */
 }
 
-.btn-group .game_button:hover {
+.game_button:hover {
   background-color: grey;
 }
 
